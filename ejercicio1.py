@@ -4,7 +4,7 @@ def solo_letras(cadena):
 
 while True:
     nombre = input("Ingrese su nombre por favor: ")
-    if solo_letras(nombre):
+    if solo_letras(nombre.replace(" ", "")):
         print("Bienvenido",nombre)
         break
     else:
